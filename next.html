@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <link rel="stylesheet" href="css/next.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <div class="container-fixed">
+        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Block Chain</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Support</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <form class="form-inline">
+                            <input class="form-control mr-sm-3" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-3 my-sm-1" type="submit">Search</button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    </br>
+
+    <!-- 2nd Container -->
+    <div class="container-fluid">
+        <div class="jumbotron one">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="images/blockchain2.jpg" alt="No Image">
+                </div>
+                <div class="col-md-6">
+                    <h2>BlockChain</h2>
+                    <p>A blockchain,originally block chain, is a growing list of records, called blocks, 
+                        that are linked using cryptography.Each block contains a cryptographic hash of the previous 
+                        block, a timestamp, and transaction data (generally represented as a Merkle tree).
+                        By design, a blockchain is resistant to modification of the data. It is "an open, distributed ledger 
+                        that can record transactions between two parties efficiently and in a verifiable and permanent way".
+                        For use as a distributed ledger, a blockchain is typically managed by a peer-to-peer network collectively 
+                        adhering to a protocol for inter-node communication and validating new blocks.</p>
+                    <p> Once recorded, the data in any given block cannot be altered retroactively without alteration of all 
+                        subsequent blocks, which requires consensus of the network majority. Although blockchain records are 
+                        not unalterable, blockchains may be considered secure by design and exemplify a distributed computing system 
+                        with high Byzantine fault tolerance. Decentralized consensus has therefore been claimed with a blockchain.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MultiContainer -->
+    <div class="container-fluid">
+        <div class="jumbotron two">
+            <div class="row">
+                <!-- History -->
+                <div class="col-md-4 three">
+                    <h6>Let's see it's History</h6>
+                    <h3>History</h3>
+                    <p>The first work on a cryptographically secured chain of blocks was described in 1991 by Stuart Haber and 
+                        W. Scott Stornetta.[6][11] They wanted to implement a system where document timestamps could not be tampered 
+                        with. In 1992, Haber, Stornetta, and Dave Bayer incorporated Merkle trees to the design, which improved its 
+                        efficiency by allowing several document certificates to be collected into one block.
+                        The first blockchain was conceptualized by a person (or group of people) known as Satoshi Nakamoto in 2008. 
+                        Nakamoto improved the design in an important way using a Hashcash-like method to timestamp blocks without 
+                        requiring them to be signed by a trusted party and introducing a difficulty parameter to stabilize rate with 
+                        which blocks are added to the chain.[6] The design was implemented the following year by Nakamoto as a core 
+                        component of the cryptocurrency bitcoin, where it serves as the public ledger for all transactions on the 
+                        network.
+                        In August 2014, the bitcoin blockchain file size, containing records of all transactions that have occurred 
+                        on the network, reached 20 GB (gigabytes).[13] In January 2015, the size had grown to almost 30 GB, and from 
+                        January 2016 to January 2017, the bitcoin blockchain grew from 50 GB to 100 GB in size. The ledger size had 
+                        exceeded 200 GiB by early 2020.[14]
+                        </p>
+                    <h6>Access some official documentation!</h6>
+                    <div class="btn-group-horizontal" data-toggle="buttons">
+                        <a href="https://en.wikipedia.org/wiki/Blockchain" class="btn btn-success" role="button">BlockChain</a>
+                        <a href="https://bitcoin.org/bitcoin.pdf" class="btn btn-warning"
+                            role="button">Bitcoin Whitepaper</a>
+                        <a href="https://blockgeeks.com/guides/what-is-blockchain-technology/" class="btn btn-danger"
+                            role="button">Complete guide</a>
+                        <a href="https://etherscan.io/" class="btn btn-info" role="button">Ethereum</a>
+                    </div>
+                </div>
+                <!-- Random Data -->
+                <div class="col-md-4 seven">
+                    <div id="mySlide" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#mySlide" data-slide-to="0" class="active"></li>
+                            <li data-target="#mySlide" data-slide-to="1"></li>
+                            <li data-target="#mySlide" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/blockchain.jpg" class="d-block w-100" alt="slide1">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h4>Blockchain</h4>
+                                
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/crypto.jpg" class="d-block w-100" alt="slide2">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h4>Cryptocurrency</h4>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/smartcontracts.png" class="d-block w-100" alt="slide3">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Smart Contracts</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#mySlide" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#mySlide" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div>
+                        <p id="data">
+                            Blockchain is evolving into a more mainstream technology, and the market for the technology 
+                            is growing rapidly. In 2017, the global technology market for blockchain was $339.5m. By 2021,
+                            this market is projected to grow to $2.3bn It is clear many individuals and organisations from 
+                            different fields are now looking at applications for blockchain that extend far beyond its origins 
+                            in cryptocurrency and new financial models. Of course, banking appears to be the first major 
+                            industry investing heavily in blockchain. But, as we are seeing, everyone from Microsoft to academia 
+                            are exploring the technology's potential, and its implications to disrupt their industries. 
+                            It's no surprise then that blockchain is now producing real implications for the cybersecurity field.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Additional -->
+                <div class="col-md-4 one">
+                    <div class="second">
+                        <form action="#">
+                            <img src="images/undraw_nakamoto_2iv6.svg" alt="No profile pic">
+                            
+                        
+                        </br>
+                            <h3>Intrested in Blockchain?</h3>
+                            </br>
+                            <!-- Name -->
+                            <div class="input-div one">
+                                <div class="i">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="div">
+                                    <h5>Name</h5>
+                                    <input type="text" class="input">
+                                </div>
+                            </div>
+                            <!-- Email -->
+                            <div class="input-div two">
+                                <div class="i">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="div">
+                                    <h5>Email Id</h5>
+                                    <input type="email" class="input">
+                                </div>
+                            </div>
+                            <!-- Details -->
+                            <div class="input-div three">
+                                <div class="i">
+                                    <i class="fas fa-edit"></i>
+                                </div>
+                                <div class="div">
+                                    <h5>Details</h5>
+                                    <input type="text" class="input">
+                                </div>
+                            </div>
+                            <input type="submit" class="btn btn-success" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
